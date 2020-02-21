@@ -1,0 +1,55 @@
+.section-works{
+    background-color: black;
+    h3{
+        color: map-get($colors , color1);
+    }
+}
+
+.bnt-more{
+    position: relative;
+    top: -0.5rem;
+    background-color: map-get($colors, color3);
+    color: map-get($colors, color1);
+    text-decoration: none;
+    padding: 1rem;
+    
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    width: 100%;
+        img{
+            width: 50%;
+            height: auto;
+            
+        }
+}
+
+@media only screen and (min-width: 700px){
+    .bnt-more{
+        left: 15rem;
+    }
+    .gallery{    
+        img{
+            width: calc(100% / 3);
+        }
+    }
+    .wrap-gallery{
+        padding: 0 2rem;
+    }
+
+}
+
+@media only screen and (min-width: 1100px){
+
+    .gallery{    
+        img{
+            width: calc(100% / 4);
+        }
+    }
+
+}

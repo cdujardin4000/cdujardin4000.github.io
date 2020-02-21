@@ -1,0 +1,104 @@
+.section-our-team{
+    text-align: left;
+    padding-left: 1rem;
+    background-color: black;
+    img{
+        width: 7rem;
+        height: 7rem;
+        margin-left: 1rem;
+    }
+    h3{
+        color: map-get($colors, color1);
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+}
+
+.team{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+.col-team-1{
+    width: 33%;
+}
+
+.col-team-2{
+    width: 67%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.name{
+    color: map-get($colors, color2);
+    font-size: 1.3rem;
+}
+
+.col-team-2 .job{
+    font-size: 1rem;
+    color: map-get($colors, color1);
+}
+
+.social-team{
+    padding-left: 1rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    width: 12rem;
+        .fab{
+        color: map-get($colors, color1);
+        font-size: 1.2rem;
+        
+        }
+}
+
+@media only screen and (min-width: 700px){
+    .section-our-team{
+        max-width: 100%;
+        padding: 0 1rem;
+            p{
+                padding-left: 0;
+            }
+            img{
+                margin-left: 0;
+                margin-bottom: 1rem;
+                width: 100%;
+                height: auto;
+            }
+            .social-team{
+                padding-left: 0;
+            }
+    }
+    .team{
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        
+    }
+    .col-team-1 {
+        width: 100%;
+    }
+    .col-team-2{
+        width: 100%;
+        h4{
+            padding: .5rem 0 ;
+        }
+    }
+    .members{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .member{
+        width: 30%;
+
+    }
+}
+
+@media only screen and (min-width: 1100px){
+    .member{
+        width: 24%;
+
+    }
+}

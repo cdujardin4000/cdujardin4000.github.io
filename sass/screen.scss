@@ -1,0 +1,30 @@
+/* ordre d'importation des fichiers */
+
+// 0. Variable
+@import "base/variables";
+
+// 1. Reset
+@import "base/reset";
+
+// 2. Base
+@import "base/base";
+
+// 3. Layout
+@import "layout/layout";
+
+// 4. Charger les modules
+
+@import "modules/section-home";
+@import "modules/section-banner";
+@import "modules/section-contact";
+@import "modules/section-works";
+@import "modules/section-our-services";
+@import "modules/section-who-are-we";
+@import "modules/section-our-team";
+
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
