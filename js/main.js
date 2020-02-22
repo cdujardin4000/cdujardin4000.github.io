@@ -10,4 +10,14 @@ document.querySelectorAll('.nav-hamburger').forEach(btn => {
 
 
 
+var mymenu = document.getElementById("l-main-menu");
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mymenu.style.background = "black";
+    } else {
+        mymenu.style.background = "transparent";
+    }
+}
 
