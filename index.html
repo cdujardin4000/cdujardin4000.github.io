@@ -9,44 +9,44 @@
 </head>
 <body>
     <header>        
-
-        <div class="logo">
-                <img src="img/logoK@2x.png">
-        </div>
         
-        <button class="nav-hamburger" id="hamburger">
-            <svg viewBox="0 0 64 48">
-                <path d="M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37"></path>
-                <path d="M19,24 L45,24 C61.2371586,24 57,49 41,33 L32,24"></path>
-                <path d="M45,33 L19,33 C-8,33 6,-2 22,14 L45,37"></path>
-            </svg>
-        </button>
+            <div class="logo">
+                    <img src="img/logoK@2x.png">
+            </div>
+            
+            <button class="nav-hamburger" id="hamburger">
+                <svg viewBox="0 0 64 48">
+                    <path d="M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37"></path>
+                    <path d="M19,24 L45,24 C61.2371586,24 57,49 41,33 L32,24"></path>
+                    <path d="M45,33 L19,33 C-8,33 6,-2 22,14 L45,37"></path>
+                </svg>
+            </button>
+            
+            <nav class="l-main-menu" id="menuPrincipale">
+                <ul>
+                    <li><a href="#secHome" class="link">HOME.</a></li>
+                    <li><a href="#secWorks" class="link">WORKS.</a></li>
+                    <li><a href="#secServices" class="link">SERVICES.</a></li>
+                    <li><a href="#secAbout" class="link">ABOUT.</a></li>
+                    <li><a href="#secContact" class="link">CONTACT.</a></li>
+                </ul>
+            </nav>
+            <div class="social-header">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-google-plus-square"></i>
+            </div>
         
-        <nav class="l-main-menu" id="menuPrincipale">
-            <ul class="mymenu">
-                <li><a href="#">HOME.</a></li>
-                <li><a href="#">WORKS.</a></li>
-                <li><a href="#">SERVICES.</a></li>
-                <li><a href="#">ABOUT.</a></li>
-                <li><a href="#">CONTACT.</a></li>
-            </ul>
-        </nav>
-        <div class="social-header">
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-twitter-square"></i>
-            <i class="fab fa-google-plus-square"></i>
-        </div>
-
     </header>
 
     <main>
-        <section class="section-home">
+        <section class="section-home" id="secHome">
             <h1 class="titre-ban"><span>We are a small design studio dedicated to build great digital products.</span></h1>
             <p class="text-banner">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, eius illo numquam ullam 
                 voluptates error, eos sit itaque fugiat reprehenderit consectetur minus, facere pariatur 
                 facilis nisi enim laudantium placeat labore?</p>
         </section>
-        <section class="section-works">
+        <section class="section-works" id="secWorks">
             <a class="bnt-more" href="#">More about us</a>
             <div class="wrap">
                 <h3>OUR LATEST PROJECTS <span class="colored">.</span></h3>
@@ -131,7 +131,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-our-services">
+        <section class="section-our-services" id="secServices">
             <div class="wrap">
                 <h3>OUR AWESOME SERVICES <span class="colored">.</span></h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi animi deleniti suscipit error! Fuga molestiae, 
@@ -170,7 +170,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-who-are-we">
+        <section class="section-who-are-we" id="secAbout">
             <div class="wrap">
                 <h3>WHO ARE WE <span class="colored">.</span></h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi animi deleniti suscipit error! Fuga molestiae, 
@@ -199,7 +199,7 @@
                 </div>
             </div>    
         </section>
-        <section class="section-our-team">
+        <section class="section-our-team" >
             <div class="wrap">
                 <h3>MEET OUR TEAM <span class="colored">.</span></h3>
                 <div class="members">
@@ -342,7 +342,7 @@
                 <input type="radio" class="radio" name="radio" value="" >
             </div>        
         </section>
-        <section class="section-contact">
+        <section class="section-contact" id="secContact">
             <div class="wrap">
                 <h3>GET IN TOUCH WITH US <span class="colored">.</span></h3>
                 <div class="contacts">
@@ -361,9 +361,9 @@
                                 <div>             
                                     <textarea placeholder="     Message" type="text" id="message"  name="message"></textarea> 
                                 </div>        
-                                <div>
-                                    <a class="bnt-send" id="send" href="#">Envoyer</a>           
-                                </div>
+                                
+                                <a class="bnt-send" id="send" href="#">Envoyer</a>           
+                                
                             </form>
                         </div>
                     </div>

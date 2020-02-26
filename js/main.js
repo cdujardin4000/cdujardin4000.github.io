@@ -1,23 +1,18 @@
 const   menu        =   document.querySelector('.l-main-menu');
-
+const   btn         =   document.querySelector('.nav-hamburger');
 
 document.querySelectorAll('.nav-hamburger').forEach(btn => {
     btn.addEventListener('click', e => {
         btn.classList.toggle('active');
         menu.classList.toggle('open');
     });
+    
+});
+document.querySelectorAll('.link').forEach(item => {
+    item.addEventListener('click', e => {
+        menu.classList.toggle('open');
+        btn.classList.toggle('active');
+    });
 });
 
-
-
-var mymenu = document.getElementById("l-main-menu");
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mymenu.style.background = "black";
-    } else {
-        mymenu.style.background = "transparent";
-    }
-}
 
