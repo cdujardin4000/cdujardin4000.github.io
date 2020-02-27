@@ -214,7 +214,7 @@ MENU
   transform: scaleX(1);
   transform-origin: right; }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 700px) {
   /* line 102, ../sass/layout/_layout.scss */
   .logo {
     position: fixed; }
