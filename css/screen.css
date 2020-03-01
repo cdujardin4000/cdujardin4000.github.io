@@ -91,7 +91,7 @@ p {
 strong {
   color: #e21818; }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 700px) {
   h1 {
     margin: 2rem 3rem 0; } }
 /*
@@ -364,7 +364,7 @@ footer .logo-footer img {
   padding-top: 5rem;
   margin-bottom: 5rem; }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 700px) {
   .section-home {
     text-align: left;
     padding-right: 10rem;
@@ -410,7 +410,7 @@ footer .logo-footer img {
   justify-content: center;
   top: -1rem; }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 700px) {
   .section-banner {
     padding: 2rem 5rem; } }
 
@@ -472,7 +472,7 @@ footer .logo-footer img {
 .section-contact .info {
   margin-bottom: 5rem; }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 700px) {
   .contacts {
     display: flex; }
 
@@ -519,7 +519,7 @@ footer .logo-footer img {
   width: 50%;
   height: auto; }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 700px) {
   .bnt-more {
     left: 75%; }
   .gallery img {
@@ -549,7 +549,7 @@ footer .logo-footer img {
   text-align: left;
   margin: 0 1rem; }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 700px) {
   .services {
     display: flex;
     flex-direction: row;
@@ -588,7 +588,7 @@ footer .logo-footer img {
   padding-left: 0;
   padding-right: 0; }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 700px) {
   .ares {
     display: flex;
     flex-direction: row;
@@ -650,7 +650,7 @@ footer .logo-footer img {
 .social-team .fab:hover {
   transform: perspective(50px) translateZ(2px); }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 700px) {
   .section-our-team {
     max-width: 100%;
     padding: 0 1rem; }
