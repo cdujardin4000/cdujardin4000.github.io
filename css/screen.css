@@ -348,6 +348,16 @@ footer .logo-footer {
 footer .logo-footer img {
   color: #949495; }
 
+@media only screen and (min-width: 700px){
+  footer .social-footer{
+    width: 25rem;
+  }
+  footer .social-footer .fab {
+    margin: 0 1rem;
+    font-size: 1.5rem;
+  }
+  
+}
 .section-home {
   min-height: 50rem;
   background-image: url("../img/hero-bg.jpg");
