@@ -481,7 +481,10 @@ footer .logo-footer img {
 
 .section-contact .info {
   margin-bottom: 5rem; }
-
+.numbers{
+  display: inline-block;
+  width: 5rem;
+}
 @media only screen and (min-width: 700px) {
   .contacts {
     display: flex; }
