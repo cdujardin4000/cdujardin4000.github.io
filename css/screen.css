@@ -442,7 +442,11 @@ footer .logo-footer img {
   height: 2rem;
   font-family: inherit;
   font-size: inherit; }
-
+input, textarea {
+  background-color : #5a5656;
+  color : white;
+  border: none;
+}
 .section-contact #message {
   width: calc(100% - 4rem);
   height: 10rem;
