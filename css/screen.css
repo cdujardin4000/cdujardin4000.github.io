@@ -1327,13 +1327,12 @@ p.tags-article {
 .pagination {
   margin: 10rem 0;
   text-align: center;
-  font-size: 1.5rem; }
+  font-size: 1.4rem; }
 /* line 169, ../sass/pages/_blog.scss */
 .pagination .lnr {
-  font-size: 1rem; }
+  font-size: 1.4rem; }
 /* line 172, ../sass/pages/_blog.scss */
 .pagination li {
-  font-size: 1rem;
   display: inline-block;
   padding: .5rem;
   cursor: pointer; }
@@ -1511,7 +1510,7 @@ aside .blogger p {
   color: #777777;
   padding: 0 0 0 .2rem;
   font-size: 1.5rem;
-  padding-top: .2rem; }
+  padding: .4rem 0 0 .4rem; }
 /* line 347, ../sass/pages/_blog.scss */
 .news-picker input {
   width: 60%;
@@ -1534,34 +1533,35 @@ aside .blogger p {
   display: inline-block;
   padding: .5rem;
   line-height: 2rem;
+  font-weight: bold;
   cursor: pointer;
-  margin-top: .5rem; }
-/* line 369, ../sass/pages/_blog.scss */
+  margin-top: .8rem; }
+/* line 370, ../sass/pages/_blog.scss */
 .tags-clouds a:hover {
   color: #fff;
   background: #8490ff; }
 
-/* line 375, ../sass/pages/_blog.scss */
+/* line 376, ../sass/pages/_blog.scss */
 .sec-blogger > div {
   border-bottom: 2px solid #dadada;
   padding-bottom: 2rem; }
 
-/* line 379, ../sass/pages/_blog.scss */
+/* line 380, ../sass/pages/_blog.scss */
 #last {
   border-bottom: none; }
 
 @media only screen and (min-width: 720px) {
-  /* line 384, ../sass/pages/_blog.scss */
+  /* line 385, ../sass/pages/_blog.scss */
   .sec-ban-blog {
     margin-top: 4rem;
     background-size: cover; }
 
-  /* line 390, ../sass/pages/_blog.scss */
+  /* line 391, ../sass/pages/_blog.scss */
   .news-picker button, .news-picker input {
     font-size: 0.6rem;
     padding: 0; } }
 @media only screen and (min-width: 960px) {
-  /* line 398, ../sass/pages/_blog.scss */
+  /* line 399, ../sass/pages/_blog.scss */
   .news-picker input, .news-picker button {
     font-size: .8rem; } }
 /* line 1, ../sass/pages/_contact.scss */
