@@ -305,7 +305,7 @@ i {
 @media only screen and (min-width: 960px) {
   /* line 49, ../sass/base/_base.scss */
   p {
-    font-size: 1rem; } }
+    font-size: 1.1rem; } }
 /* line 2, ../sass/layout/_layout.scss */
 .wrap {
   max-width: 1140px;
@@ -569,7 +569,7 @@ BANIERE BLEUE
   margin-bottom: 2rem; }
 /* line 275, ../sass/layout/_layout.scss */
 .sec-banner li {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #fff;
   display: inline-block;
   text-transform: capitalize;
@@ -707,12 +707,13 @@ footer a {
 /* line 22, ../sass/pages/_home.scss */
 .title-1 {
   margin: 0rem 0 1rem 1rem;
-  font-size: 1.4rem; }
+  font-size: 1.6rem;
+  font-weight: 800; }
 
-/* line 27, ../sass/pages/_home.scss */
+/* line 28, ../sass/pages/_home.scss */
 .title-2 {
   margin: 5rem 0 2rem;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 2rem;
   text-transform: capitalize;
   font-weight: bold;
@@ -722,12 +723,12 @@ footer a {
   padding: 0 3rem; }
 
 /*TEXT*/
-/* line 39, ../sass/pages/_home.scss */
+/* line 40, ../sass/pages/_home.scss */
 .p-style {
   text-align: center; }
 
 /*BUTTONS*/
-/* line 43, ../sass/pages/_home.scss */
+/* line 44, ../sass/pages/_home.scss */
 .btn-1 {
   background: linear-gradient(to right, #8490ff, #62bdfc);
   color: #fff;
@@ -738,7 +739,7 @@ footer a {
   text-decoration: none;
   margin-left: 1rem;
   transition: transform 100ms linear; }
-/* line 53, ../sass/pages/_home.scss */
+/* line 54, ../sass/pages/_home.scss */
 .btn-1:hover {
   background: linear-gradient(to left, #8490ff, #62bdfc);
   -webkit-box-shadow: 5px 5px 10px 0px rgba(5, 6, 26, 0.37);
@@ -746,136 +747,136 @@ footer a {
   box-shadow: 5px 5px 10px 0px rgba(5, 6, 26, 0.37); }
 
 /*IMAGES*/
-/* line 63, ../sass/pages/_home.scss */
+/* line 64, ../sass/pages/_home.scss */
 .pres-1 {
   background: #faf9ff; }
 
-/* line 67, ../sass/pages/_home.scss */
+/* line 68, ../sass/pages/_home.scss */
 .pres-2 img {
   margin-top: 2rem; }
 
-/* line 71, ../sass/pages/_home.scss */
+/* line 72, ../sass/pages/_home.scss */
 .img-box {
   padding: 5rem;
   width: calc(100% - 10rem); }
 
 /*SERVICES*/
-/* line 76, ../sass/pages/_home.scss */
+/* line 77, ../sass/pages/_home.scss */
 .service {
   text-align: center; }
-/* line 78, ../sass/pages/_home.scss */
+/* line 79, ../sass/pages/_home.scss */
 .service h3 {
   font-size: 1.2rem;
   margin-top: 3rem; }
 
-/* line 84, ../sass/pages/_home.scss */
+/* line 85, ../sass/pages/_home.scss */
 .lnr {
   font-size: 3rem; }
 
 /*BANIERE*/
-/* line 88, ../sass/pages/_home.scss */
+/* line 89, ../sass/pages/_home.scss */
 .sec-ban-counter {
   margin-top: 5rem;
   padding: 5rem 0;
   background: linear-gradient(to right, #8490ff, #62bdfc); }
 
-/* line 94, ../sass/pages/_home.scss */
+/* line 95, ../sass/pages/_home.scss */
 .counter-number, .counter-item {
   color: #fff;
   text-align: center; }
 
-/* line 99, ../sass/pages/_home.scss */
+/* line 100, ../sass/pages/_home.scss */
 .counter-number {
-  font-size: 2.5rem; }
+  font-size: 2.5rem;
+  font-weight: 700; }
 
-/* line 102, ../sass/pages/_home.scss */
+/* line 104, ../sass/pages/_home.scss */
 .counter-item {
   font-size: 1.2rem;
-  margin-top: -2.5rem;
-  font-weight: lighter; }
+  margin-top: -2.5rem; }
 
 /*GALLERIE*/
-/* line 110, ../sass/pages/_home.scss */
+/* line 111, ../sass/pages/_home.scss */
 .gallery-portfolio {
   padding-bottom: 3rem; }
-/* line 111, ../sass/pages/_home.scss */
+/* line 112, ../sass/pages/_home.scss */
 .gallery-portfolio h3 {
   font-size: 1.2rem;
   margin: 2rem 0 1rem;
   text-align: center; }
 
-/* line 118, ../sass/pages/_home.scss */
+/* line 119, ../sass/pages/_home.scss */
 .p-portfolio {
   margin: 0;
   text-align: center;
   font-weight: bolder; }
 
-/* line 123, ../sass/pages/_home.scss */
+/* line 124, ../sass/pages/_home.scss */
 .project {
   position: relative;
   margin-top: 4rem; }
 
-/* line 128, ../sass/pages/_home.scss */
+/* line 129, ../sass/pages/_home.scss */
 .img-box-portfolio {
   padding: 1rem; }
-/* line 130, ../sass/pages/_home.scss */
+/* line 131, ../sass/pages/_home.scss */
 .img-box-portfolio img {
   z-index: 10;
   transition: all .4s ease-in; }
 
-/* line 135, ../sass/pages/_home.scss */
+/* line 136, ../sass/pages/_home.scss */
 .img-hover {
   display: none; }
 
 /*BLOG*/
-/* line 139, ../sass/pages/_home.scss */
+/* line 140, ../sass/pages/_home.scss */
 .sec-blog {
   padding: 1rem 0 3rem; }
-/* line 141, ../sass/pages/_home.scss */
+/* line 142, ../sass/pages/_home.scss */
 .sec-blog .img-box {
   padding: 0 1rem;
   width: calc(100% - 2rem);
   margin: 2rem 0 1rem; }
 
-/* line 147, ../sass/pages/_home.scss */
+/* line 148, ../sass/pages/_home.scss */
 .blogger, .info, .article-info {
   display: flex; }
 
-/* line 150, ../sass/pages/_home.scss */
+/* line 151, ../sass/pages/_home.scss */
 .blogger {
   margin-left: 1rem;
   align-items: center;
   width: calc(45% - 1rem); }
-/* line 154, ../sass/pages/_home.scss */
+/* line 155, ../sass/pages/_home.scss */
 .blogger .name {
   color: #222222;
   font-size: .9rem;
   margin: 0 1rem;
   font-weight: bolder; }
-/* line 160, ../sass/pages/_home.scss */
+/* line 161, ../sass/pages/_home.scss */
 .blogger img {
   width: 1.5rem;
   margin-bottom: .5rem; }
-/* line 164, ../sass/pages/_home.scss */
+/* line 165, ../sass/pages/_home.scss */
 .blogger p {
   margin: 0 0 1rem 1rem; }
 
-/* line 170, ../sass/pages/_home.scss */
+/* line 171, ../sass/pages/_home.scss */
 .info {
   justify-content: end;
   align-items: center;
   color: #777777;
   width: calc(55% - 1rem); }
-/* line 175, ../sass/pages/_home.scss */
+/* line 176, ../sass/pages/_home.scss */
 .info .lnr {
   font-size: 1rem; }
 
-/* line 180, ../sass/pages/_home.scss */
+/* line 181, ../sass/pages/_home.scss */
 .counter-article {
   margin-left: .5rem;
   display: inline-block; }
 
-/* line 185, ../sass/pages/_home.scss */
+/* line 186, ../sass/pages/_home.scss */
 .title-article {
   text-transform: uppercase;
   font-size: 1.2rem;
@@ -883,108 +884,108 @@ footer a {
   margin: 1rem 1rem 0; }
 
 /*BANIERE-LABEL*/
-/* line 193, ../sass/pages/_home.scss */
+/* line 194, ../sass/pages/_home.scss */
 .sec-ban-logo {
   padding: 5rem 0;
   background: linear-gradient(to right, #8490ff, #62bdfc); }
-/* line 196, ../sass/pages/_home.scss */
+/* line 197, ../sass/pages/_home.scss */
 .sec-ban-logo img {
   width: 50%;
   margin-left: 25%;
   margin-right: 25%; }
 
-/* line 203, ../sass/pages/_home.scss */
+/* line 204, ../sass/pages/_home.scss */
 .label {
   display: none; }
 
 @media only screen and (min-width: 720px) {
   /*on rend les elements cach├®s visibles on passe en flex pour les aligner horizontalement. 
   on donne une taille de 15% afin de leur laisser de place pour les marges*/
-  /* line 210, ../sass/pages/_home.scss */
+  /* line 211, ../sass/pages/_home.scss */
   .label {
     display: inline-block; }
 
-  /* line 213, ../sass/pages/_home.scss */
+  /* line 214, ../sass/pages/_home.scss */
   .sec-ban-logo-content {
     display: flex;
     justify-content: space-around; }
-  /* line 216, ../sass/pages/_home.scss */
+  /* line 217, ../sass/pages/_home.scss */
   .sec-ban-logo-content img {
     width: 15%;
     margin: 0; }
 
   /*on diminue le padding qu'on avait mis en smartphone afin d'avoir des images de meme taille. 
   cela augmente la taille de la photo du dessus. on ajoute du margin pour obtenir le r├®sultat d├®sir├®*/
-  /* line 223, ../sass/pages/_home.scss */
+  /* line 224, ../sass/pages/_home.scss */
   .img-box {
     padding: 1rem 1rem 0; }
 
-  /* line 227, ../sass/pages/_home.scss */
+  /* line 228, ../sass/pages/_home.scss */
   .pres-2 img {
     margin-top: 11rem; }
 
   /*on recentre le contenu par rapport au reste*/
-  /* line 232, ../sass/pages/_home.scss */
+  /* line 233, ../sass/pages/_home.scss */
   .presentation {
     padding-left: 2rem; }
 
   /*adaptation des marges pour placer les ├®l├®ments au mieux */
   /*on descend le contenu pour laisser la place au menu*/
-  /* line 237, ../sass/pages/_home.scss */
+  /* line 238, ../sass/pages/_home.scss */
   .pres-1 {
     padding-top: 8rem; }
-  /* line 239, ../sass/pages/_home.scss */
+  /* line 240, ../sass/pages/_home.scss */
   .pres-1 .hello {
     margin-top: 6rem; }
-  /* line 242, ../sass/pages/_home.scss */
+  /* line 243, ../sass/pages/_home.scss */
   .pres-1 img {
     margin-left: 4rem; }
 
-  /* line 246, ../sass/pages/_home.scss */
+  /* line 247, ../sass/pages/_home.scss */
   .p-pres {
     margin-bottom: 6rem; }
 
   /*adaptation des tailles des elements blogger et info qui n'ont plus assez de place au debut 
   du breakpoint. ├á r├®adapter qd l'espace le permet*/
-  /* line 251, ../sass/pages/_home.scss */
+  /* line 252, ../sass/pages/_home.scss */
   .info {
     font-size: .6rem; }
-  /* line 253, ../sass/pages/_home.scss */
+  /* line 254, ../sass/pages/_home.scss */
   .info .lnr {
     font-size: .6rem; }
 
-  /* line 257, ../sass/pages/_home.scss */
+  /* line 258, ../sass/pages/_home.scss */
   .counter-article {
     margin-left: .2rem; }
 
-  /* line 261, ../sass/pages/_home.scss */
+  /* line 262, ../sass/pages/_home.scss */
   .blogger img {
     width: 1rem; }
-  /* line 264, ../sass/pages/_home.scss */
+  /* line 265, ../sass/pages/_home.scss */
   .blogger .name {
     font-size: .6rem; } }
 /*adaptation des tailles des elements blogger et info qui sont devenus trop petits*/
 @media only screen and (min-width: 960px) {
-  /* line 272, ../sass/pages/_home.scss */
+  /* line 273, ../sass/pages/_home.scss */
   .info {
     font-size: 1.1rem; }
-  /* line 274, ../sass/pages/_home.scss */
+  /* line 275, ../sass/pages/_home.scss */
   .info .lnr {
     font-size: 1.1rem; }
 
-  /* line 278, ../sass/pages/_home.scss */
+  /* line 279, ../sass/pages/_home.scss */
   .counter-article {
     margin-left: .5rem; }
 
-  /* line 282, ../sass/pages/_home.scss */
+  /* line 283, ../sass/pages/_home.scss */
   .blogger .name {
     font-size: .9rem; }
-  /* line 285, ../sass/pages/_home.scss */
+  /* line 286, ../sass/pages/_home.scss */
   .blogger img {
     width: 2rem; }
 
   /*hover sur le portfolio*/
-  /* line 290, ../sass/pages/_home.scss */
+  /* line 291, ../sass/pages/_home.scss */
   .img-hover {
     display: block;
     z-index: 20;
@@ -995,7 +996,7 @@ footer a {
     transform: perspective(200px) translateZ(0px);
     transition: all  .4s ease-in;
     /*on cible l'image en dessous et on l'agrandi aussi*/ }
-  /* line 300, ../sass/pages/_home.scss */
+  /* line 301, ../sass/pages/_home.scss */
   .img-hover img {
     left: calc(50% - 2rem);
     /*50% - la moitie de la largeur et de la hauteur de l'├®l├®ment*/
@@ -1004,16 +1005,16 @@ footer a {
     width: 4rem;
     display: none;
     position: relative; }
-  /* line 309, ../sass/pages/_home.scss */
+  /* line 310, ../sass/pages/_home.scss */
   .img-hover:hover {
     /*on donne une couleur au background et ├á l'icone et on fait un agrandissement de la div*/
     transform: perspective(200px) translateZ(15px);
     background: linear-gradient(to right, #8490ff, #62bdfc);
     opacity: .8; }
-  /* line 314, ../sass/pages/_home.scss */
+  /* line 315, ../sass/pages/_home.scss */
   .img-hover:hover img {
     display: block; }
-  /* line 319, ../sass/pages/_home.scss */
+  /* line 320, ../sass/pages/_home.scss */
   .img-hover:hover + img {
     transform: perspective(200px) translateZ(15px); } }
 /* line 2, ../sass/pages/_about.scss */
