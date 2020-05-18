@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" />
+    <script src="https://kit.fontawesome.com/a867fee425.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <!--<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">--> 
+    <link href="./css/screen.css" rel="stylesheet"> 
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="wrap">
+                <nav class="l-main-menu" id="menuPrincipale">
+                    <div class="l-main-menu-content">
+                        <div class="logo-header-desktop">
+                            <img src="img/logo.png" alt= "logo du header smart" title= "LOGO">
+                        </div>
+                        <ul>
+                            <li><a href="index.html" class="link menu">home</a></li>
+                            <li><a href="about.html" class="link">about</a></li>
+                            <li><a href="portfolio.html" class="link is-active">portfolio</a></li>
+                            <li><a href="blog.html" class="link">blog</a></li>
+                            <li><a href="contact.html" class="link">contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <button class="nav-hamburger" id="hamburger">
+                    <svg viewBox="0 0 64 48">
+                        <path d="M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37"></path>
+                        <path d="M19,24 L45,24 C61.2371586,24 57,49 41,33 L32,24"></path>
+                        <path d="M45,33 L19,33 C-8,33 6,-2 22,14 L45,37"></path>
+                    </svg>
+                </button>
+                <div class="logo-header">
+                    <img src="img/logo.png" alt= "logo du header desk" title= "LOGO">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="far fa-arrow-alt-circle-up"></i></button>
+        <section class="sec-banner" id="banner-portfolio">
+            <h1 class="banner-title"><strong>portfolio</strong></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li class="active">portfolio</li>
+                </ul>
+            </nav>
+        </section>
+            <!--la qualité des images de base ne permet pas de faire grand chose de correct a ce niveau ci j'ai donc 
+            paramettré pour qu'il charge la plus grosse a chaque fois-->
+        <section class="gallery-portfolio">
+            <div class="wrap">
+                <h2 class="title-2"><strong>our latest featured projects</strong></h2>
+                <p class="p-style">Who are in extremely love with eco friendly system.</p>
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="project">
+                            <div class="img-box-portfolio">
+                                <div class="img-hover">
+                                    <img src="img/preview.png" alt="preview" title="PREVIEW" loading="lazy">
+                                </div>
+                                <img    srcset="img/portfolio-1-s.jpg 400w,
+                                                img/portfolio-1-m.jpg 600w,
+                                                img/portfolio-1-l.jpg 800w"
+                                        sizes= "(max-width: 576px) 800px,
+                                                (max-width: 768px) 8000px,
+                                                800px"
+                                        src="img/portfolio-1-l.jpg" 
+                                        alt="ice-cream" 
+                                        title="ICE CREAM" 
+                                        loading="lazy">
+                            </div>
+                        </div>
+                        <h3><strong>2D Vinyl Design</strong></h3>
+                        <p class="p-portfolio">Vector</p>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="project">
+                            <div class="img-box-portfolio">
+                                <div class="img-hover">
+                                    <img src="img/preview.png" alt="preview" title="PREVIEW" loading="lazy">
+                                </div>
+                                <img    srcset="img/portfolio-2-s.jpg 400w,
+                                                img/portfolio-2-m.jpg 600w,
+                                                img/portfolio-2-l.jpg 800w"
+                                        sizes= "(max-width: 576px) 800px,
+                                                (max-width: 768px) 8000px,
+                                                800px"
+                                        src="img/portfolio-2-l.jpg" 
+                                        alt="projet-chapeau" 
+                                        title="PROJET CHAPEAU" 
+                                        loading="lazy">
+                            </div>
+                        </div>
+                        <h3><strong>2D Vinyl Design</strong></h3>
+                        <p class="p-portfolio">Vector</p>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="project">
+                            <div class="img-box-portfolio">
+                                <div class="img-hover">
+                                    <img src="img/preview.png" alt="preview" title="PREVIEW" loading="lazy">
+                                </div>
+                                <img    srcset="img/portfolio-3-s.jpg 400w,
+                                                img/portfolio-3-m.jpg 600w,
+                                                img/portfolio-3-l.jpg 800w"
+                                        sizes= "(max-width: 576px) 800px,
+                                                (max-width: 768px) 800px,
+                                                800px"
+                                        src="img/portfolio-3-l.jpg" 
+                                        alt="lollipops" 
+                                        title="LOLLIPOPS" 
+                                        loading="lazy">
+                            </div>
+                        </div>
+                        <h3><strong>Creative Poster Design</strong></h3>
+                        <p class="p-portfolio">Agency</p>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="project">
+                            <div class="img-box-portfolio">
+                                <div class="img-hover">
+                                    <img src="img/preview.png" alt="preview" title="PREVIEW" loading="lazy">
+                                </div>
+                                <img    srcset="img/portfolio-4-s.jpg 400w,
+                                                img/portfolio-4-m.jpg 600w,
+                                                img/portfolio-4-l.jpg 800w"
+                                        sizes= "(max-width: 576px) 800px,
+                                                (max-width: 768px) 800px,
+                                                800px"
+                                        src="img/portfolio-4-l.jpg" 
+                                        alt="dalmatien sur fond blanc" 
+                                        title="PROJET DALMATIEN" 
+                                        loading="lazy">
+                            </div>
+                        </div>
+                        <h3><strong>Embosed Logo Design</strong></h3>
+                        <p class="p-portfolio">Portal</p>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="project">
+                            <div class="img-box-portfolio">
+                                <div class="img-hover">
+                                    <img src="img/preview.png" alt="preview" title="PREVIEW" loading="lazy">
+                                </div>
+                                <img    srcset="img/portfolio-5-s.jpg 400w,
+                                                img/portfolio-5-m.jpg 600w,
+                                                img/portfolio-5-l.jpg 800w"
+                                        sizes= "(max-width: 576px) 800px,
+                                                (max-width: 768px) 800px,
+                                                800px"
+                                        src="img/portfolio-5-l.jpg" 
+                                        alt="projet-chapeau-2" 
+                                        title="PROJET CHAPEAU 2" 
+                                        loading="lazy">
+                            </div>
+                        </div>
+                        <h3><strong>3D Helmet Design</strong></h3>
+                        <p class="p-portfolio">Vector</p>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="project">
+                            <div class="img-box-portfolio">
+                                <div class="img-hover">
+                                    <img src="img/preview.png" alt="preview" title="PREVIEW" loading="lazy">
+                                </div>
+                                <img    srcset="img/portfolio-6-s.jpg 400w,
+                                                img/portfolio-6-m.jpg 600w,
+                                                img/portfolio-6-l.jpg 800w"
+                                        sizes= "(max-width: 576px) 800px,
+                                                (max-width: 768px) 800px,
+                                                800px"
+                                        src="img/portfolio-6-l.jpg" 
+                                        alt="projet-nature" 
+                                        title="PROJET NATURE" 
+                                        loading="lazy">
+                            </div>
+                        </div>
+                        <h3><strong>2D Vinyl Design</strong></h3>
+                        <p class="p-portfolio">Raster</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="wrap">
+            <div class="row">
+                <div class="col-12 col-md-5 col-lg-5">
+                    <h2 class="footer-title">about me</h2>
+                    <p>We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience</p>
+                    <div class="copyright">
+                        <p class="p-copyright">Copyright 2020, Made with <strong>❤</strong> by <a href="#">cdujardin4000</a>.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 col-lg-5">
+                    <h2 class="footer-title">newsletter</h2>
+                    <p>Stay updated in our latest trends.</p>
+                    <form class="mail-picker" action="./page.php" method="post">
+                        <input value=" Enter your Email" onclick="this.value=''" type="text" id="emailfoot"  name="email"/>    
+                        <button class="bnt-send" type="submit">
+                            <span class="lnr lnr-arrow-right"></span>
+                        </button>  
+                    </form>      
+                </div>
+                <div class="col-12 col-md-2 col-lg-2">
+                    <h2 class="footer-title">follow me</h2>
+                    <p>Let us be social.</p>
+                    <div class="social-footer">
+                        <a><i class="fab fa-facebook-f"></i></a>
+                        <a><i class="fab fa-twitter"></i></a>
+                        <a><i class="fab fa-dribbble"></i></a>
+                        <a><i class="fab fa-behance"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>

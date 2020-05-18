@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" />
+    <script src="https://kit.fontawesome.com/a867fee425.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <!--<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">--> 
+    <link href="./css/screen.css" rel="stylesheet"> 
+    <title>Blog</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="wrap">
+                <nav class="l-main-menu" id="menuPrincipale">
+                    <div class="l-main-menu-content">
+                        <div class="logo-header-desktop">
+                            <img src="img/logo.png" alt= "logo du header smart" title= "LOGO">
+                        </div>
+                        <ul>
+                            <li><a href="index.html" class="link">home</a></li>
+                            <li><a href="about.html" class="link">about</a></li>
+                            <li><a href="portfolio.html" class="link">portfolio</a></li>
+                            <li><a href="blog.html" class="link is-active">blog</a></li>
+                            <li><a href="contact.html" class="link">contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <button class="nav-hamburger" id="hamburger">
+                    <svg viewBox="0 0 64 48">
+                        <path d="M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37"></path>
+                        <path d="M19,24 L45,24 C61.2371586,24 57,49 41,33 L32,24"></path>
+                        <path d="M45,33 L19,33 C-8,33 6,-2 22,14 L45,37"></path>
+                    </svg>
+                </button>
+                <div class="logo-header">
+                    <img src="img/logo.png" alt= "logo du header desk" title= "LOGO">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="far fa-arrow-alt-circle-up"></i></button>
+        <section class="sec-ban-blog">
+            <h1 class="ban-blog-title"><strong>dude you're getting a telescope</strong></h1>
+            <p class="ban-blog-txt">There is a moment in the life of any apiring astronomer that it is time to buy that first</p>
+            <a class="btn-blog" href="#">view more</a>
+        </section>
+        <div class="blog-layout">
+            <section class="sec-thumbs">
+                <div class="wrap">
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-4">
+                            <div class="thumbs-box">
+                                <div class="thumbs-bg-1">
+                                    <div class="thumbs-opct">
+                                        <h2 class="thumbs-title"><strong>social life</strong></h2>
+                                        <p class="p-style">Enjoy your social life togheter</p>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4">
+                            <div class="thumbs-box">
+                                <div class="thumbs-bg-2">
+                                    <div class="thumbs-opct">
+                                        <h2 class="thumbs-title"><strong>politics</strong></h2>
+                                        <p class="p-style">Be a part of politics</p>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4">
+                            <div class="thumbs-box">
+                                <div class="thumbs-bg-3">
+                                    <div class="thumbs-opct">
+                                        <h2 class="thumbs-title"><strong>food</strong></h2>
+                                        <p class="p-style">Let the food be finished</p>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </section>
+            <div class="wrap">
+                <div class="row">
+                    <div class="col-12 col-md-8 col-lg-8">
+                        <section class="sec-blog-page">
+                            <article>
+                                <div class="row">
+                                    <div class="col-12 col-md-3 col-lg-3">
+                                        <p class="tags-article">food, technology, politics, lifestyle</p>
+                                        <div class="row">
+                                            <div class="col-6 col-md-12 col-lg-12">
+                                                <div class="info-blog">
+                                                    <span>Mark Wiens</span>
+                                                    <span class="lnr lnr-user"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-md-12 col-lg-12">
+                                                <div class="info-blog">
+                                                    <time datetime= "2017-12-12">12 dec 2017</time>
+                                                    <span class="lnr lnr-calendar-full"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-md-12 col-lg-12">
+                                                <div class="info-blog">
+                                                    <span>1,2M Views</span>
+                                                    <span class="lnr lnr-eye"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-md-12 col-lg-12">
+                                                <div class="info-blog">
+                                                    <span>06 Comments</span>
+                                                    <span class="lnr lnr-bubble"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-9 col-lg-9">
+                                        <img src="img/article-country.jpg" alt="country" title="COUNTRY" loading="lazy">
+                                        <h2 class="title-article"><strong>astronomy binoculars a great alternative</strong></h2>
+                                        <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend 
+                                            money on boot camps when you can get the MCSE study materials yourself at a fraction.</p>
+                                        <a class="bnt-article" id="article1" href="article.html" >view more</a>  
+                                    </div>
+                                </div>
+                            </article>
+                            <article>
+                                <div class="row">
+                                    <div class="col-12 col-md-3 col-lg-3">
+                                        <p class="tags-article">food, technology, politics, lifestyle</p>
+                                        <div class="row">
+                                            <div class="col-6 col-md-12 col-lg-12">
+                                                <div class="info-blog">
+                                                    <span>Mark Wiens</span>
+                                                    <span class="lnr lnr-user"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-md-12 col-lg-12">
+                                                <div class="info-blog">
+                                                    <time datetime= "2017-12-12">12 dec 2017</time>
+                                                    <span class="lnr lnr-calendar-full"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-md-12 col-lg-12">
+                                                <div class="info-blog">
+                                                    <span>1,2M Views</span>
+                                                    <span class="lnr lnr-eye"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-md-12 col-lg-12">
+                                                <div class="info-blog">
+                                                    <span>06 Comments</span>
+                                                    <span class="lnr lnr-bubble"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-9 col-lg-9">
+                                        <img src="img/article-forest.jpg" alt="forest" title="FOREST" loading="lazy">
+                                        <h2 class="title-article"><strong>the basics of buying a telescope</strong></h2>
+                                        <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend 
+                                            money on boot camps when you can get the MCSE study materials yourself at a fraction.</p>
+                                        <a class="bnt-article" id="article2" href="article.html" >view more</a>  
+                                    </div>
+                                </div>
+                            </article>
+                            <article>
+                                <div class="row">
+                                    <div class="col-12 col-md-3 col-lg-3">
+                                        <p class="tags-article">food, technology, politics, lifestyle</p>
+                                        <div class="row">
+                                            <div class="col-6 col-md-12 col-lg-12">
+                                                <div class="info-blog">
+                                                    <span>Mark Wiens</span>
+                                                    <span class="lnr lnr-user"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-md-12 col-lg-12">
+                                                <div class="info-blog">
+                                                    <time datetime= "2017-12-12">12 dec 2017</time>
+                                                    <span class="lnr lnr-calendar-full"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-md-12 col-lg-12">
+                                                <div class="info-blog">
+                                                    <span>1,2M Views</span>
+                                                    <span class="lnr lnr-eye"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-md-12 col-lg-12">
+                                                <div class="info-blog">
+                                                    <span>06 Comments</span>
+                                                    <span class="lnr lnr-bubble"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-9 col-lg-9">
+                                        <img src="img/article-couple.jpg" alt="couple" title="COUPLE" loading="lazy">
+                                        <h2 class="title-article"><strong>the glossary of telescopes</strong></h2>
+                                        <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend 
+                                            money on boot camps when you can get the MCSE study materials yourself at a fraction.</p>
+                                        <a class="bnt-article" id="article3" href="article.html" >view more</a>   
+                                    </div>
+                                </div>
+                            </article>
+                            <article>
+                                <div class="row">
+                                    <div class="col-12 col-md-3 col-lg-3">
+                                        <p class="tags-article">food, technology, politics, lifestyle</p>
+                                        <div class="row">
+                                            <div class="col-6 col-md-12 col-lg-12">
+                                                <div class="info-blog">
+                                                    <span>Mark Wiens</span>
+                                                    <span class="lnr lnr-user"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-md-12 col-lg-12">
+                                                <div class="info-blog">
+                                                    <time datetime= "2017-12-12">12 dec 2017</time>
+                                                    <span class="lnr lnr-calendar-full"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-md-12 col-lg-12">
+                                                <div class="info-blog">
+                                                    <span>1,2M Views</span>
+                                                    <span class="lnr lnr-eye"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-md-12 col-lg-12">
+                                                <div class="info-blog">
+                                                    <span>06 Comments</span>
+                                                    <span class="lnr lnr-bubble"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-9 col-lg-9">
+                                        <img src="img/article-model.jpg" alt="model" title="MODEL" loading="lazy">
+                                        <h2 class="title-article"><strong>the night sky</strong></h2>
+                                        <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend 
+                                            money on boot camps when you can get the MCSE study materials yourself at a fraction.</p>
+                                        <a class="bnt-article" id="article4" href="article.html" >view more</a> 
+                                    </div>
+                                </div>
+                            </article>
+                            <article>
+                                <div class="row">
+                                    <div class="col-12 col-md-3 col-lg-3">
+                                        <p class="tags-article">food, technology, politics, lifestyle</p>
+                                        <div class="row">
+                                            <div class="col-6 col-md-12 col-lg-12">
+                                                <div class="info-blog">
+                                                    <span>Mark Wiens</span>
+                                                    <span class="lnr lnr-user"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-md-12 col-lg-12">
+                                                <div class="info-blog">
+                                                    <time datetime= "2017-12-12">12 dec 2017</time>
+                                                    <span class="lnr lnr-calendar-full"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-md-12 col-lg-12">
+                                                <div class="info-blog">
+                                                    <span>1,2M Views</span>
+                                                    <span class="lnr lnr-eye"></span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-md-12 col-lg-12">
+                                                <div class="info-blog">
+                                                    <span>06 Comments</span>
+                                                    <span class="lnr lnr-bubble"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-9 col-lg-9">
+                                        <img src="img/article-dockers.jpg" alt="dockers" title="DOCKERS" loading="lazy">
+                                        <h2 class="title-article"><strong>telescopes 101</strong></h2>
+                                        <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend 
+                                            money on boot camps when you can get the MCSE study materials yourself at a fraction.</p>
+                                        <a class="bnt-article" id="article5" href="article.html" >view more</a>   
+                                    </div>
+                                </div>
+                            </article>
+                            <nav class="pagination">
+                                <ul>
+                                    <li><span class="lnr lnr-arrow-left"></span></li>
+                                    <li>01</li>
+                                    <li class="is-active">02</li>
+                                    <li>03</li>
+                                    <li>04</li>
+                                    <li>09</li>
+                                    <li><span class="lnr lnr-arrow-right"></span></li>
+                                </ul>
+                            </nav>
+                        </section>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <aside>
+                            <section class="sec-blogger">
+                                <div>
+                                    <form class="search-form" action="./page.php" method="post">
+                                        <input class="search-input" value="Search post" onclick="this.value=''" type="text" id="search"  name="search"/>
+                                        <button class="search-btn">
+                                            <span class="lnr lnr-magnifier"></span>
+                                        </button>    
+                                    </form> 
+                                </div>
+                                <div class="blogger">
+                                    <img src="img/blogger-charlie-barber.png" id="blogger-aside" alt="charlie-barber" title="CHARLIE BARBER" loading="lazy">
+                                    <p class="blogger-name">charlie barber</p>
+                                    <p class="p-style">Senior blog writer</p>
+                                    <div class="blogger-social">
+                                        <i class="fab fa-facebook-f"></i>
+                                        <i class="fab fa-twitter"></i>
+                                        <i class="fab fa-github"></i>
+                                        <i class="fab fa-behance"></i>
+                                    </div>
+                                    <p class="p-style">Boot camps have its supporters and its detractors. Some people do not understand why you should have 
+                                        to spend money on boot camp when you can get Boot camps have its supporters and its detractors</p>
+                                </div>
+                                <div class="popular-posts">
+                                    <h2 class="title-aside"><strong>popular posts</strong></h2>
+                                    <div class="post">
+                                        <img src="img/post-popular-frontier.jpg" alt="frontier" title="FRONTIER" loading="lazy"> 
+                                        <div class="post-info">
+                                            <div class="info-box">
+                                                <h3 class="title-3"><strong>space the final frontier</strong></h3>
+                                                <p>02 hours ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post">
+                                        <img src="img/post-popular-hubble.jpg" alt="hubble" title="HUBBLE" loading="lazy">
+                                        <div class="post-info">
+                                            <div class="info-box">
+                                                <h3 class="title-3"><strong>the amazing hubble</strong></h3>
+                                                <p>02 hours ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post">
+                                        <img src="img/post-popular-astrology.jpg" alt="strology" title="ASTROLOGY" loading="lazy">
+                                        <div class="post-info">
+                                            <div class="info-box">
+                                                <h3 class="title-3"><strong>astronomy or astrology</strong></h3>
+                                                <p>02 hours ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post">
+                                        <img src="img/post-popular-telescope.jpg" alt="telescope" title="TELESCOPE" loading="lazy">
+                                        <div class="post-info">
+                                            <div class="info-box">
+                                                <h3 class="title-3"><strong>asteroids telescope</strong></h3>
+                                                <p>02 hours ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="add">
+                                        <p>add goes here</p>
+                                    </div>
+                                </div>
+                                <div class="post-categories">
+                                    <h2 class="title-aside"><strong>post categories</strong></h2>
+                                    <p><span class="category"><a href="#">technology</a></span>37</p>
+                                    <p><span class="category"><a href="#">lifestyle</a></span>24</p>
+                                    <p><span class="category"><a href="#">fashion</a></span>59</p>
+                                    <p><span class="category"><a href="#">art</a></span>29</p>
+                                    <p><span class="category"><a href="#">food</a></span>15</p>
+                                    <p><span class="category"><a href="#">architecture</a></span>09</p>
+                                    <p><span class="category"><a href="#">adventure</a></span>44</p>
+                                </div>
+                                <div class="newsletter">
+                                    <h2 class="title-aside"><strong>newsletter</strong></h2>
+                                    <p class="p-style">Here, I focus on a range of items and features that we use in life without giving them a second thought.</p>
+                                    <form class="news-picker" action="./page.php" method="post">
+                                        <i class="far fa-envelope"></i>
+                                        <input value=" Enter your Email" onclick="this.value=''" type="text" id="email"  name="email"/>    
+                                        <button class="bnt-send" type="submit">
+                                            subscribe
+                                        </button>  
+                                    </form> 
+                                    <p class="p-style">You can unsubscribe at any time</p>
+                                </div>
+                                <div class="tags-clouds" id="last">
+                                    <h2 class="title-aside"><strong>tag clouds</strong></h2>
+                                    <a href="#">technology</a>
+                                    <a href="#">fashion</a>
+                                    <a href="#">architecture</a>
+                                    <a href="#">fashion</a>
+                                    <a href="#">food</a>
+                                    <a href="#">technology</a>
+                                    <a href="#">lifestyle</a>
+                                    <a href="#">art</a>
+                                    <a href="#">adventure</a>
+                                    <a href="#">food</a>
+                                    <a href="#">lifestyle</a>
+                                    <a href="#">adventure</a>
+                                </div>
+                            </section> 
+                        </aside>
+                    </div>
+                </div>    
+            </div>  
+        </div>                                                                                                                                                                                                                                                                                                    
+    </main>
+    <footer>
+        <div class="wrap">
+            <div class="row">
+                <div class="col-12 col-md-5 col-lg-5">
+                    <h2 class="footer-title">about me</h2>
+                    <p>We have tested a number of registry fix and clean utilities and present our top 3 list on our site for your convenience</p>
+                    <div class="copyright">
+                        <p class="p-copyright">Copyright 2020, Made with <strong>❤</strong> by <a href="#">cdujardin4000</a>.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 col-lg-5">
+                    <h2 class="footer-title">newsletter</h2>
+                    <p>Stay updated in our latest trends.</p>
+                    <form class="mail-picker" action="./page.php" method="post">
+                        <input value=" Enter your Email" onclick="this.value=''" type="text" id="emailfoot"  name="email"/>    
+                        <button class="bnt-send" type="submit">
+                            <span class="lnr lnr-arrow-right"></span>
+                        </button>  
+                    </form>      
+                </div>
+                <div class="col-12 col-md-2 col-lg-2">
+                    <h2 class="footer-title">follow me</h2>
+                    <p>Let us be social.</p>
+                    <div class="social-footer">
+                        <a><i class="fab fa-facebook-f"></i></a>
+                        <a><i class="fab fa-twitter"></i></a>
+                        <a><i class="fab fa-dribbble"></i></a>
+                        <a><i class="fab fa-behance"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
