@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* ordre d'importation des fichiers */
-/*ici creer les variable avec ex: tableau de couleur*/
 /*taille maximale pour le contenu en desktop*/
 /* 
 RESET
@@ -846,12 +845,12 @@ footer a {
 .blogger {
   margin-left: 1rem;
   align-items: center;
-  width: calc(45% - 1rem); }
+  width: calc(50% - 1rem); }
 /* line 155, ../sass/pages/_home.scss */
 .blogger .name {
   color: #222222;
   font-size: .9rem;
-  margin: 0 1rem;
+  margin: 0 0 0 1rem;
   font-weight: bolder; }
 /* line 161, ../sass/pages/_home.scss */
 .blogger img {
@@ -866,7 +865,7 @@ footer a {
   justify-content: end;
   align-items: center;
   color: #777777;
-  width: calc(55% - 1rem); }
+  width: calc(50% - 1rem); }
 /* line 176, ../sass/pages/_home.scss */
 .info .lnr {
   font-size: 1rem; }
@@ -949,7 +948,7 @@ footer a {
   du breakpoint. ├á r├®adapter qd l'espace le permet*/
   /* line 252, ../sass/pages/_home.scss */
   .info {
-    font-size: .6rem; }
+    font-size: .7rem; }
   /* line 254, ../sass/pages/_home.scss */
   .info .lnr {
     font-size: .6rem; }
@@ -963,29 +962,29 @@ footer a {
     width: 1rem; }
   /* line 265, ../sass/pages/_home.scss */
   .blogger .name {
-    font-size: .6rem; } }
+    font-size: .7rem; } }
 /*adaptation des tailles des elements blogger et info qui sont devenus trop petits*/
 @media only screen and (min-width: 960px) {
-  /* line 273, ../sass/pages/_home.scss */
+  /* line 276, ../sass/pages/_home.scss */
   .info {
-    font-size: 1.1rem; }
-  /* line 275, ../sass/pages/_home.scss */
+    font-size: .9rem; }
+  /* line 278, ../sass/pages/_home.scss */
   .info .lnr {
-    font-size: 1.1rem; }
+    font-size: .9rem; }
 
-  /* line 279, ../sass/pages/_home.scss */
+  /* line 282, ../sass/pages/_home.scss */
   .counter-article {
     margin-left: .5rem; }
 
-  /* line 283, ../sass/pages/_home.scss */
-  .blogger .name {
-    font-size: .9rem; }
   /* line 286, ../sass/pages/_home.scss */
+  .blogger .name {
+    font-size: 1rem; }
+  /* line 289, ../sass/pages/_home.scss */
   .blogger img {
     width: 2rem; }
 
   /*hover sur le portfolio*/
-  /* line 291, ../sass/pages/_home.scss */
+  /* line 294, ../sass/pages/_home.scss */
   .img-hover {
     display: block;
     z-index: 20;
@@ -996,7 +995,7 @@ footer a {
     transform: perspective(200px) translateZ(0px);
     transition: all  .4s ease-in;
     /*on cible l'image en dessous et on l'agrandi aussi*/ }
-  /* line 301, ../sass/pages/_home.scss */
+  /* line 304, ../sass/pages/_home.scss */
   .img-hover img {
     left: calc(50% - 2rem);
     /*50% - la moitie de la largeur et de la hauteur de l'├®l├®ment*/
@@ -1005,16 +1004,16 @@ footer a {
     width: 4rem;
     display: none;
     position: relative; }
-  /* line 310, ../sass/pages/_home.scss */
+  /* line 313, ../sass/pages/_home.scss */
   .img-hover:hover {
     /*on donne une couleur au background et ├á l'icone et on fait un agrandissement de la div*/
     transform: perspective(200px) translateZ(15px);
     background: linear-gradient(to right, #8490ff, #62bdfc);
     opacity: .8; }
-  /* line 315, ../sass/pages/_home.scss */
+  /* line 318, ../sass/pages/_home.scss */
   .img-hover:hover img {
     display: block; }
-  /* line 320, ../sass/pages/_home.scss */
+  /* line 323, ../sass/pages/_home.scss */
   .img-hover:hover + img {
     transform: perspective(200px) translateZ(15px); } }
 /* line 2, ../sass/pages/_about.scss */
@@ -1259,14 +1258,13 @@ footer a {
 /* line 92, ../sass/pages/_blog.scss */
 .sec-blog-page .info-blog {
   margin: 1rem 0;
-  font-size: .8rem;
   text-align: left;
   width: 100%;
   color: #777777; }
 /* line 98, ../sass/pages/_blog.scss */
 .sec-blog-page .info-blog .lnr {
   margin-left: 1rem;
-  font-size: .8rem;
+  font-size: 1rem;
   color: #222222; }
 /* line 105, ../sass/pages/_blog.scss */
 .sec-blog-page img {
@@ -1510,7 +1508,7 @@ aside .blogger p {
   color: #777777;
   padding: 0 0 0 .2rem;
   font-size: 1.5rem;
-  padding: .4rem 0 0 .4rem; }
+  padding: .4rem 0 0 .2rem; }
 /* line 347, ../sass/pages/_blog.scss */
 .news-picker input {
   width: 60%;
@@ -1520,7 +1518,7 @@ aside .blogger p {
 /* line 353, ../sass/pages/_blog.scss */
 .news-picker button {
   width: 25%;
-  font-size: .8rem; }
+  font-size: .7rem; }
 
 /* line 358, ../sass/pages/_blog.scss */
 .tags-clouds {
@@ -1778,51 +1776,55 @@ aside .blogger p {
   #socialDetails {
     text-align: right;
     margin-right: 1rem; }
+  /* line 83, ../sass/pages/_article.scss */
+  #socialDetails .fab {
+    font-size: .9rem;
+    padding-right: .4rem; }
 
-  /* line 85, ../sass/pages/_article.scss */
+  /* line 89, ../sass/pages/_article.scss */
   .sec-blog-page p {
     margin-right: 1rem; }
 
-  /* line 90, ../sass/pages/_article.scss */
+  /* line 95, ../sass/pages/_article.scss */
   .nav-article ul {
     flex-direction: row;
     margin-top: 4rem; }
-  /* line 94, ../sass/pages/_article.scss */
+  /* line 99, ../sass/pages/_article.scss */
   .nav-article li {
     width: calc(50% - 2rem); } }
-/* line 99, ../sass/pages/_article.scss */
+/* line 104, ../sass/pages/_article.scss */
 .sec-comment, .sec-new-comment {
   border: 1px solid #dadada;
   margin: 2rem 1rem; }
 
-/* line 103, ../sass/pages/_article.scss */
+/* line 108, ../sass/pages/_article.scss */
 .sec-comment {
   padding: 0 1rem; }
-/* line 105, ../sass/pages/_article.scss */
+/* line 110, ../sass/pages/_article.scss */
 .sec-comment p {
   margin: 1rem 0; }
-/* line 108, ../sass/pages/_article.scss */
+/* line 113, ../sass/pages/_article.scss */
 .sec-comment .comment-box, .sec-comment .re-comment-box {
   margin: 1rem 0;
   max-width: 100%;
   display: flex; }
-/* line 113, ../sass/pages/_article.scss */
+/* line 118, ../sass/pages/_article.scss */
 .sec-comment img {
   width: 40%;
   max-width: 4rem;
   margin: 1rem 1rem 0 0;
   max-height: 4rem; }
-/* line 119, ../sass/pages/_article.scss */
+/* line 124, ../sass/pages/_article.scss */
 .sec-comment .comment-boxing {
   width: 80%;
   margin-right: 1rem; }
-/* line 123, ../sass/pages/_article.scss */
+/* line 128, ../sass/pages/_article.scss */
 .sec-comment .re-comment-box {
   margin-left: 1.2rem; }
-/* line 125, ../sass/pages/_article.scss */
+/* line 130, ../sass/pages/_article.scss */
 .sec-comment .re-comment-box .comment-boxing {
   margin-right: 0; }
-/* line 129, ../sass/pages/_article.scss */
+/* line 134, ../sass/pages/_article.scss */
 .sec-comment a {
   background: #fff;
   margin-top: 1rem;
@@ -1833,57 +1835,57 @@ aside .blogger p {
   padding: .5rem 1rem;
   align-self: baseline;
   font-weight: bold; }
-/* line 139, ../sass/pages/_article.scss */
+/* line 144, ../sass/pages/_article.scss */
 .sec-comment a:hover {
   background: #8490ff;
   color: #fff; }
-/* line 144, ../sass/pages/_article.scss */
+/* line 149, ../sass/pages/_article.scss */
 .sec-comment .commenter-name {
   text-transform: capitalize;
   color: #222222;
   font-size: 1rem; }
-/* line 149, ../sass/pages/_article.scss */
+/* line 154, ../sass/pages/_article.scss */
 .sec-comment .comment {
   margin-top: 2rem; }
-/* line 152, ../sass/pages/_article.scss */
+/* line 157, ../sass/pages/_article.scss */
 .sec-comment time {
   color: #ada9a9; }
 
-/* line 157, ../sass/pages/_article.scss */
+/* line 162, ../sass/pages/_article.scss */
 .sec-new-comment {
   padding-bottom: 4rem; }
-/* line 159, ../sass/pages/_article.scss */
+/* line 164, ../sass/pages/_article.scss */
 .sec-new-comment form {
   max-width: 100%; }
-/* line 162, ../sass/pages/_article.scss */
+/* line 167, ../sass/pages/_article.scss */
 .sec-new-comment input, .sec-new-comment textarea {
   margin: 1rem;
   border: 2px solid transparent;
   /*on donne une taille de 2 px transparent a la bordure pour ne pas avoir de 
    avoir de d├®placement d'├®l├®ments qd les bordures deviennent vivibles*/
   color: #777777; }
-/* line 167, ../sass/pages/_article.scss */
+/* line 172, ../sass/pages/_article.scss */
 .sec-new-comment input:hover, .sec-new-comment textarea:hover {
   border-image-source: linear-gradient(to left, #8490ff, #62bdfc);
   border-width: 2px;
   border-image-slice: 1; }
-/* line 172, ../sass/pages/_article.scss */
+/* line 177, ../sass/pages/_article.scss */
 .sec-new-comment input:focus, .sec-new-comment textarea:focus {
   border-image-source: linear-gradient(to right, #8490ff, #62bdfc);
   border-width: 2px;
   border-image-slice: 1; }
-/* line 178, ../sass/pages/_article.scss */
+/* line 183, ../sass/pages/_article.scss */
 .sec-new-comment input {
   height: 3rem;
   padding-left: 1rem;
   width: calc(100% - 3.5rem); }
-/* line 183, ../sass/pages/_article.scss */
+/* line 188, ../sass/pages/_article.scss */
 .sec-new-comment textarea {
   height: 6rem;
   padding: 1rem;
   width: calc(100% - 4.5rem);
   margin-bottom: 4rem; }
-/* line 189, ../sass/pages/_article.scss */
+/* line 194, ../sass/pages/_article.scss */
 .sec-new-comment .btn-1 {
   position: relative;
   left: calc(50% - 96px);
@@ -1893,10 +1895,10 @@ aside .blogger p {
   border: none; }
 
 @media only screen and (min-width: 960px) {
-  /* line 198, ../sass/pages/_article.scss */
-  #info-art {
-    margin: .5rem 0; }
+  /* line 204, ../sass/pages/_article.scss */
+  #socialDetails .fab {
+    font-size: 1.1rem; }
 
-  /* line 201, ../sass/pages/_article.scss */
+  /* line 208, ../sass/pages/_article.scss */
   #tags-art {
     margin-bottom: 2rem; } }
