@@ -1003,11 +1003,11 @@ footer a {
     /*on cible l'image en dessous et on l'agrandi aussi*/ }
   /* line 305, ../sass/pages/_home.scss */
   .img-hover img {
-    left: calc(50% - 2rem);
+    left: calc(50% - 1.5rem);
     /*50% - la moitie de la largeur et de la hauteur de l'├®l├®ment*/
-    top: calc(50% - 2rem);
-    height: 4rem;
-    width: 4rem;
+    top: calc(50% - 1.5rem);
+    height: 3rem;
+    width: 3rem;
     display: none;
     position: relative; }
   /* line 314, ../sass/pages/_home.scss */
